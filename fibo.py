@@ -1,6 +1,7 @@
 import sys
 
 def fib(n, cache={}):
+	"""n= number, cache=dict"""
 	if n in cache:
 		return cache[n]
 	if n == 0:
