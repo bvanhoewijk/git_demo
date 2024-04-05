@@ -12,13 +12,9 @@ def fib(n, cache={}):
 	
 	return result
 
-# Get some input from sys:
 input = int(sys.argv[1])
 
-# Calculate fibonacci
-# 38
 cache = {}
 res = fib(input, cache)
 
-# Print result
 print(res)
